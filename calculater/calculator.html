@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>calculator</title>
+    <link rel="stylesheet" href="C:\HTML\projects\calculater\calculator.css">
+</head>
+<body>
+<h1> simple calculate </h1>
+<div class="cal">
+<form name="form1">
+ <div id="box">   <input style="font-size: 25px;" type="text" placeholder="lets calculate" name="res"></div><br>
+    <nav>
+    <input type="button" value="1" onclick="form1.res.value=form1.res.value+'1'">
+    <input type="button" value="2" onclick="form1.res.value=form1.res.value+'2'">
+    <input type="button" value="3" onclick="form1.res.value=form1.res.value+'3'">
+    <input type="button" value="+" onclick="form1.res.value=form1.res.value+'+'">
+    <br>
+    <input type="button" value="4" onclick="form1.res.value=form1.res.value+'4'">
+    <input type="button" value="5" onclick="form1.res.value=form1.res.value+'5'">
+    <input type="button" value="6" onclick="form1.res.value=form1.res.value+'6'">
+    <input type="button" value="-" onclick="form1.res.value=form1.res.value+'-' ">
+    <br>
+    <input type="button" value="7" onclick="form1.res.value=form1.res.value+'7'">
+    <input type="button" value="8" onclick="form1.res.value=form1.res.value+'8'">
+    <input type="button" value="9" onclick="form1.res.value=form1.res.value+'9'">
+    <input type="button" value="*" onclick="form1.res.value=form1.res.value+'*'">
+    <br>
+    <input type="button" value="0" onclick="form1.res.value=form1.res.value+'0'">
+    <input type="button" value="/" onclick="form1.res.value=form1.res.value+'/'">
+    <input type="button" value="." onclick="form1.res.value=form1.res.value+'.'">
+    <input type="button" style="background-color:red;" value="=" onclick="form1.res.value=eval(form1.res.value)"><br> 
+    <input type="button" value="Clear" onclick="form1.res.value=''"></div>
+</nav>
+</form>
+
+</div>    
+</body>
+</html>

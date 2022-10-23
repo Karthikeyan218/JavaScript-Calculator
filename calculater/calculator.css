@@ -1,0 +1,68 @@
+h1{
+    color:rgb(253, 253, 253);
+    font-family: arial;
+    font-weight: bold;
+    background-color:lightgray;
+    text-align: center;
+    border: 2px solid black;
+    border: 5px solid lightgray;
+   border-radius: 30px;
+}
+body{
+    background-color: rgb(138, 89, 89);
+}
+.cal{
+   position: absolute;
+   top: 120px;
+   left: 550px;
+   border: 5px solid gray;
+   border-radius: 10px;
+   padding: 10px 20px;
+   background:linear-gradient(to bottom,#33ccff 0%,#ff99cc 100%);
+}
+.cal #inbox{
+height: 10px;
+width: 20px;
+
+}
+.cal nav input{
+    border: 1px solid black;
+  border-radius:50px;
+  color: black ;
+  font-weight: bold;
+  font-family: Arial;
+font-size: medium;  
+  padding:  20px;
+  background-color:gray;
+ margin: 3px;
+}
+.cal #box input
+{
+    background-color: white;
+    height: 45px;
+    width:230px;
+    border: 5px solid gray;
+    border-radius: 10px;
+}
+.cal #clear input{
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    background-color: grey;
+    height: 40px;
+    width:200px;
+    border: 5px solid gray;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
